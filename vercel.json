@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd balwhite-devs && npm install && npm run build",
+  "outputDirectory": "balwhite-devs/.next",
+  "installCommand": "cd balwhite-devs && npm install",
+  "framework": "nextjs",
+  "devCommand": "cd balwhite-devs && npm run dev"
+}

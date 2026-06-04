@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "balwhite-devs",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--prefix", "C:\\balwhite-devs"],
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\balwhite-devs && npm run dev"],
       "port": 3000,
       "env": {
         "NEXT_TELEMETRY_DISABLED": "1"
